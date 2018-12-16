@@ -1,13 +1,13 @@
 ---
 
-host: 127.0.0.1
+host: localhost
 connection: local
 become: yes
 tasks:
 
 - name: create directory
   file:
-   path=/home/darko
+   path=/home/darko/testansiblegit
    owner=user
    group=user
    mode=0755
