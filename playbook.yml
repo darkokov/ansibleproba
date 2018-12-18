@@ -1,7 +1,7 @@
 ---
 
-host: localhost
-connection: local
+#host: localhost
+#connection: local
 become: yes
 tasks:
 
