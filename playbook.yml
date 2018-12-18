@@ -1,6 +1,6 @@
 ---
 
-host: localhost
+host: all
 #connection: local
 become: yes
 tasks:
