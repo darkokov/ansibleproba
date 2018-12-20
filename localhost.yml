@@ -2,7 +2,8 @@
 
 - hosts: localhost
 #connection: local
-  become: yes
-  become_method: sudo
+  remote_user: root
+#  become: yes
+#  become_method: sudo
   roles: 
   - cloudcp
