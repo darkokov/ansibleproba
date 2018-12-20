@@ -2,7 +2,7 @@
 
 - hosts: localhost
 #connection: local
-  remote_user: root
+  remote_user: darko
 #  become: yes
 #  become_method: sudo
   roles: 
