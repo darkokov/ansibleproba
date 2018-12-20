@@ -1,7 +1,7 @@
 ---
 
-#hosts: localhost
+- hosts: localhost
 #connection: local
-#become: yes
-tasks:
- - role: cloudcp
+  become: yes
+  tasks:
+  - role: cloudcp
