@@ -1,0 +1,7 @@
+- name: create directory
+  file:
+   path=/home/darko/testansiblegit
+   owner=user
+   group=user
+   mode=0755
+   state=directory

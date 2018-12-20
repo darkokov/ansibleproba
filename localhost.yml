@@ -1,0 +1,7 @@
+---
+
+host: all
+#connection: local
+become: yes
+tasks:
+ - role: cloudcp
