@@ -3,5 +3,4 @@
 - hosts: localhost
 #connection: local
   become: yes
-  tasks:
-  - roles: cloudcp
+  roles: cloudcp
